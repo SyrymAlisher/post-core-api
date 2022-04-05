@@ -12,7 +12,7 @@ public class PostModel {
     @NotNull(message = "clientID Cannot be empty")
     private String clientId;
     @NotNull(message = "postRecipienintID Cannot be empty")
-    private String postRecipientId;
+    private String receiverId;
     private String postItem;
     private String status;
 }
